@@ -69,6 +69,19 @@
       <artifactId>httpmime</artifactId>
       <scope>test</scope>
     </dependency>
+    
+    <!-- jooby plugins -->
+	<dependency>
+      <groupId>org.jooby</groupId>
+      <artifactId>jooby-jackson</artifactId>
+      <version>1.0.0.CR7</version>
+    </dependency>
+	    
+    <dependency>
+      <groupId>org.kohsuke</groupId>
+      <artifactId>github-api</artifactId>
+      <version>1.76</version>
+    </dependency>
 
   </dependencies>
 

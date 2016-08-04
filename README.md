@@ -14,9 +14,8 @@ Requirements
 Let’s try it!:
 
     $ cd github_tools
-    $ mvn jooby:run 
+    $ mvn jooby:run
 
 Development tools
-    
-    $ mvn clean install
+
     $ mvn eclipse:clean eclipse:eclipse
