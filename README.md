@@ -18,5 +18,6 @@ Let’s try it!:
     $ mvn jooby:run 
 
 Development tools
-
+    
+    $ mvn clean install
     $ mvn eclipse:clean eclipse:eclipse
