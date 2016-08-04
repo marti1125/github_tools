@@ -16,3 +16,7 @@ Let’s try it!:
     $ cd github_tools
    
     $ mvn jooby:run 
+
+Development tools
+
+    $ mvn eclipse:clean eclipse:eclipse
