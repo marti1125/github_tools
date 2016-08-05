@@ -28,13 +28,14 @@ public class App extends Jooby {
 	
 	use(new Jackson());
 	  
-    get("/", () -> "Hello World!");
-    get("/repositories", rsp -> {
-    	//GitHub github = GitHub.connect("username","outh");
-    	//return github.getMyOrganizations().toString();
-    	//rsp.send(github.getMyOrganizations());
-    	return "test";
+    get("/", () -> "Github Tools");
+    get("/repo", rsp -> {
+    	GithubUtil githubUTil = new GithubUtil();
+    	GitHub gh = githubUTil.connect();
+    	String data = gh.getMyOrganizations().toString();
+    	return data;
     });
+    
   }
 
   public static void main(final String[] args) throws Throwable {
